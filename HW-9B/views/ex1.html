@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nidhi's Tutorial 10 HW9B</title>
+    
+</head>
+<body>
+  <form>
+    <h1>Nidhi's Sample Form</h1>
+    
+        <label><b>Name:</b></label>
+        <input type="text" name="name" id="name" required><br><br>
+        <label><b>Email:</b></label>
+        <input type="text" name="email" id="email"required placeholder="xyz@domain.com">
+    <br><br>
+        <label><b>Payment Type:</b></label><br>
+        <input type="radio" name="paymentType" value="Cash" />Cash<br>
+        <input type="radio" name="paymentType" value="Credit Card"/>Credit Card<br> 
+        <input type="radio" name="paymentType" value="Google Pay"/>Google Pay<br>
+        <input type="radio" name="paymentType" value="Apple Pay"/>Apple Pay<br><br>
+    
+        <input type="checkbox" id="specialPromo" name="specialPromo" value="On"> <label> Sign me up for special promotions </label><br><br>
+    <br>
+        <label><b>Preferred Location:</b></label>
+            <select name="preferredLocation" id="preferredLocation">
+              <option style="display:none;"></option>
+              <option value="Los Angeles">Los Angeles</option>
+              <option value="Orange County">Orange County</option>
+              <option value="Riverside">Riverside</option>
+              <option value="San Diego">San Diego</option>
+      </select>
+    </p>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Cancel">
+  </form><br>
+  <table id="result">
+</table> 
+  <script src="./ex1.js"></script>
+  <a href="./index.html">link to previous page</a>
+</body>
+</html>
